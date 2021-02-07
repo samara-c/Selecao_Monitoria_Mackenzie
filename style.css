@@ -1,0 +1,40 @@
+#principal {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pokemon-titulo {
+    color: black;
+}
+
+#nome-pokemon {
+    color: darkslategray;
+    font-weight: bold;
+}
+
+#pokemonFoto, #poke-acoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+
+img {
+    width : 70%;
+}
+
